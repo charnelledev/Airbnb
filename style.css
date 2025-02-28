@@ -1,0 +1,146 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav img{
+    height: 58px;
+
+}
+nav{
+    display: grid;
+    grid-template-columns:20% 40% 40%;
+    padding: 0 32px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    /* box-shadow: 10px 8px 10px 8px rgb(99, 96, 96); */
+}
+.air, .internet, .buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* margin: 20px; */
+    
+
+}
+
+.air img{
+    width: 25px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+}
+  
+.logment span:hover{
+background-color: rgb(240, 231, 231);
+padding: 20px;
+border-radius: 30px;
+
+}
+
+.logment span{
+    color:rgb(189, 179, 179)
+}
+ .ul2:hover{
+    background-color: rgb(240, 231, 231);
+    border-radius: 30px;
+}
+.internet{
+    padding-right: 20px;
+}
+.buttom{
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 30px;
+    width: 18%;
+    gap: 5px;
+    /* height: 14%; */
+}
+.buttom:hover{
+box-shadow: 2px 1px 2px 2px rgb(207, 203, 203);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav li {
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(70, 66, 66);
+    font-weight: 600;
+}
+button{
+    padding: 18px;
+    border-radius: 28px;
+
+}
+.cordonner{
+    display: grid;
+    grid-template-columns:30% 20% 20% 30%;
+    /* padding: 0 32px; */
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 80px;
+    margin: 100px;
+    padding-left:30px;
+    margin-top: 10px;
+    /* gap: 20px; */
+}
+.destination{
+    padding: 15px;
+    
+}
+input{
+    border: none;
+}
+.voyageurs{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+p{
+    color: rgb(179, 174, 174);
+}
+h6{
+    font-size:0.8rem;
+}
+.deuxieme img:hover{
+background-color: rgb(224, 9, 9);
+/* animation:'fade-right';
+ rotate:'270'; */
+}
+.deuxieme img{
+    background-color:rgb(255,56,92);
+    padding: 17px;
+    border-radius: 50%;
+    
+}
+/* .destination:hover{
+   background-color:rgb(240, 231, 231) ;
+   border-radius: 30px;
+   
+   
+}
+.arrive:hover{
+   background-color:rgb(240, 231, 231) ;
+   border-radius: 30px;
+   
+}
+.depart:hover{
+   background-color:rgb(240, 231, 231) ;
+   border-radius: 30px;
+   
+}
+.premiere:hover{
+   background-color:rgb(240, 231, 231) ;
+   border-radius: 30px;
+   
+} */
